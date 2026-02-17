@@ -1,0 +1,13 @@
+# Gradle build output
+.gradle/
+build/
+
+# IntelliJ project settings
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Program runtime data
+tasks.txt

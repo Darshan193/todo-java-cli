@@ -8,7 +8,7 @@ public class TaskManager {
 
     public void addTask(String title) {
 
-//        tasks.add(new Task(title));
+        tasks.add(new Task(title));
     }
 
     public boolean isEmpty() {

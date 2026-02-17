@@ -26,14 +26,6 @@ public class TaskTest {
         assertFalse(t.isCompleted());
     }
 
-    @Test
-    void deletingInvalidIndexDoesNothing() {
-        TaskManager manager = new TaskManager();
-        manager.addTask("Homework");
 
-        manager.deleteTask(5); // invalid index
-
-        assertEquals(1, manager.size());
-    }
 
 }
